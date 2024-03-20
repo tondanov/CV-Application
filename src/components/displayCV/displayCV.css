@@ -1,0 +1,64 @@
+.cv__displayCV-container {
+    margin: auto;
+    padding: 10px;
+    max-width: 100%; /* Ensure the container doesn't exceed the available space */
+    width: 600px; /* Set a fixed width or adjust as needed */
+}
+
+.cv_displayCV-header {
+    background-color: var(--clr-slate800);
+    color: var(--clr-light);
+    padding: 15px;
+    max-width: 600px;
+    
+}
+
+.cv_displayCV-name {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.cv_displayCV-name h2 {
+    font-weight: 500;
+}
+
+.cv_displayCV-underheader-icon {
+    color: var(--clr-light);
+    width: var(--size-base);
+    height: var(--size-base);
+}
+
+.displayCV-underheader {
+    display: flex;
+    align-items: center;
+    font-size: var(--size-xs);
+    gap: 0.3rem;
+}
+
+.cv_displayCV-body {
+    padding-left: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_displayCV-body h3 {
+    font-weight: 500;
+}
+
+.cv_displayCV-body_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_displayCV-body_content-education {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.cv_displayCV-body-icon {
+    color: var(--clr-rose);
+    width: var(--size-base);
+    height: var(--size-base);
+}

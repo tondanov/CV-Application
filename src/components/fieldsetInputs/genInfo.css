@@ -1,0 +1,31 @@
+.genInfo-container {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 50rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
+
+    display: flex;
+    flex-wrap: wrap;   
+
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.genInfo-container label {
+    margin-right: 10px; /* Add margin between label and input */
+}
+
+.genInfo-container input {
+    width: 50%; /* Add margin between label and input */
+}
+
+@media screen and (max-width: 1480px) {
+    .genInfo-container {
+        align-items: center;
+    }
+}
+

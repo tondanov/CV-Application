@@ -1,0 +1,69 @@
+.eduInfo-container {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 50rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+.eduInfo-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eduInfo-container label {
+    text-align: right;
+    margin-right: 10px; /* Add margin between label and input */
+}
+
+.eduInfo-container input {
+    flex: 2; /* Let input take more space */
+}
+
+.eduInfo_dates {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eduInfo_button {
+    display: flex;
+
+}
+
+.roww {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: center;
+}
+
+.eduInfo-icon {
+    color: var(--clr-dark);
+    width: var(--size-3xl);
+    height: var(--size-3xl);
+
+}
+
+.eduInfo-container-false {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 50rem;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
